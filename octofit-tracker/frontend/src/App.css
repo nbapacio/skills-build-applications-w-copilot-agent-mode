@@ -1,0 +1,86 @@
+
+.App {
+  text-align: center;
+  background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
+  min-height: 100vh;
+}
+
+
+.App-logo {
+  height: 60px;
+  margin-right: 16px;
+  vertical-align: middle;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background: linear-gradient(90deg, #6366f1 0%, #60a5fa 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #fff;
+}
+
+
+.App-link {
+  color: #6366f1;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #6366f1 0%, #60a5fa 100%) !important;
+}
+.navbar-brand, .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+}
+.nav-link.active {
+  color: #fbbf24 !important;
+}
+.btn {
+  border-radius: 20px;
+  font-weight: 500;
+}
+.btn-success {
+  background-color: #34d399;
+  border: none;
+}
+.btn-info {
+  background-color: #60a5fa;
+  border: none;
+}
+.card-title {
+  color: #6366f1;
+  font-weight: bold;
+}
+.table {
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.table-dark {
+  background-color: #6366f1;
+  color: #fff;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #e0e7ff;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
